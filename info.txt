@@ -1,13 +1,17 @@
-Commands To Execute Assignment-8:
 
-	On Terminal:
-	javac Server.java Client.java
+Probleam Statement: Implement multi-threaded client/server Process communication using RMI
 
+
+Commands To Execute Assignment-1:
 	On Terminal-1:
-		java Server
+		javac *.java
+		rmiregistry
 
 	On Terminal-2:
-		java Client
+		java ArithmeticServiceImpl
+
+	On Terminal-3:
+		java ArithmeticClient
 
 
 
